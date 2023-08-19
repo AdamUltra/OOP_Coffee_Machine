@@ -1,2 +1,2 @@
 # OOP_Coffee_Machine
-The OOP versiom of the CoffeeMachine
+The OOP version of the CoffeeMachine
