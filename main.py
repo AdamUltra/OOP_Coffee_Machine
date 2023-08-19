@@ -1,12 +1,11 @@
 from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
-
+coffee_machine = CoffeeMaker()
+Menu_items = Menu()
+Money = MoneyMachine()
 go = True
 while go:
-    coffee_machine = CoffeeMaker()
-    Menu_items = Menu()
-    Money = MoneyMachine()
     UInp = input(f'What would you like to have? {Menu_items.get_items()}').lower()
     if UInp == 'report':
         coffee_machine.report()
